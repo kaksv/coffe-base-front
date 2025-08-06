@@ -15,6 +15,7 @@ import { CoffeeFormData } from './types';
 // import { client } from "./utils/client";
 import { createThirdwebClient } from "thirdweb";
 import { ConnectButton } from 'thirdweb/react';
+import sdk from "@farcaster/miniapp-sdk";
 import { Contract } from 'ethers';
 
 
@@ -30,6 +31,8 @@ function App() {
 // contract instance
 
 // Read all the tips from the smart contract
+// Farcaster Implementation
+sdk.actions.ready();
 const getTips = async () => {
   try {
     if (!window.ethereum) {
