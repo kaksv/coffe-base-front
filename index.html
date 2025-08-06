@@ -6,6 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Buy Me a Coffee</title>
     <meta name="description" content="Support creators by buying them a virtual coffee" />
+    <meta
+      property="fc:frame"
+      content='{
+        "version": "1",
+        "name": "Example Frame",
+        "iconUrl": "https://coffee-base-front.vercel.app/icon.png",
+        "homeUrl": "https://coffee-base-front.vercel.app",
+        "imageUrl": "https://coffee-base-front.vercel.app/image.png",
+        "button": {
+          "title": "Check this out",
+          "url": "https://coffee-base-front.vercel.app",
+          "action": {
+            "type": "open_irl",
+            "name": "Buy Me a Coffee",
+            "url": "https://coffee-base-front.vercel.app"
+          },
+        },
+        "splashImageUrl": "https://coffee-base-front.vercel.app/splash.png",
+        "splashBackgroundColor": "#eeccff",
+        "webhookUrl": "https://coffee-base-front.vercel.app/api/webhook"
+      }'
+    />
   </head>
   <body>
     <div id="root"></div>

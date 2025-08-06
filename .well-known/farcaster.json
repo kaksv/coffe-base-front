@@ -1,0 +1,18 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjgxMzMyMywidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweGVBOWY1MzM2MTg2NjdkMzY0RjdlMTc1NzA4QTg2MzY5Rjk4NzdFNzAifQ",
+    "payload": "eyJkb21haW4iOiJjb2ZmZWUtYmFzZS1mcm9udC52ZXJjZWwuYXBwIn0",
+    "signature": "MHg1ZjhlNjY2OWQzNjZhMTY5ZjFkYzhkMDdjNDk4Y2IwNmFjNzExYTk2OTQ3MjQ1ZTVhYTg2MTc1YTdkOGZjNzI4NzZmODgxOWQ2ZmFiYjE5OGNhOTVjMDg2ZDMwOGEwNWNkMzhhM2UyZDE5NWYwMWIzOTcyMTZhNjExZmQ4MTg2MzFj"
+  },
+  "frame": {
+    "version": "1",
+    "name": "Example Frame",
+    "iconUrl": "https://coffee-base-front.vercel.app/icon.png",
+    "homeUrl": "https://coffee-base-front.vercel.app",
+    "imageUrl": "https://coffee-base-front.vercel.app/image.png",
+    "buttonTitle": "Check this out",
+    "splashImageUrl": "https://coffee-base-front.vercel.app/splash.png",
+    "splashBackgroundColor": "#eeccff",
+    "webhookUrl": "https://coffee-base-front.vercel.app/api/webhook"
+  }
+}
